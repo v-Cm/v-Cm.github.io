@@ -169,7 +169,7 @@ li{
 		flex-direction: row;
 		justify-content: center;
 		width: 50%;
-		transform: translateY(-100px);
+		transform: translateY(-5%);
 	}
 	.social span{
 		padding: 0 1rem;
@@ -180,14 +180,14 @@ li{
 		justify-content: center;
 	}
 	.nav-item{
-		padding-bottom: 20px;
+		padding-bottom: 3rem;
 	}
 	.container{
-	        padding-right: 0;
+	        padding: 0;
         }
         body{
                 overflow-x:hidden;
-                background: purple;
+                background-colour: purple;
             }
 }
 .row{
