@@ -52,7 +52,7 @@ header{
 	justify-content: center;
 	align-items: center;
 }
-li{
+.nav-item{
 	margin: 0 2rem;
 }
 .nav-link{
@@ -170,7 +170,7 @@ li{
 		flex-direction: row;
 		justify-content: center;
 		width: 50%;
-		transform: translateY(-15vh);
+		transform: translateY(-20vh);
 	}
 	.social span{
 		padding: 0 1rem;
@@ -189,7 +189,22 @@ li{
 	}
 	.menu-toggler{
 		top:3rem;
-		right: 2rem;
+		right:2rem;
+	}
+}
+@media only screen and (max-width: 1000px){
+	.nav-link{
+		font-family: 'Pacifico',sans-serif;
+		font-size: 2rem;
+		padding-bottom: 1rem;
+		transition: all 300ms ease;
+	}
+	.nav-link:hover,.nav-link:focus{
+		color:red;
+		font-size: 2.3rem;
+	}
+	.nav-item{
+		margin: 0 0.7rem;
 	}
 }
 .row{
