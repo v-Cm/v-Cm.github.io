@@ -370,7 +370,7 @@ header{
 }
 .timeline .date::before{
 	content: attr(data-date);
-	left: -20rem;
+	left: -18rem;
 	text-align: right;
 	min-width: 12rem;
 	font-size: 1.7rem;
@@ -383,7 +383,7 @@ header{
 	content: '';
 	box-shadow: 0 0 0 2px white;
 	border-radius: 100%;
-	left: -7.5rem;
+	left: -6rem;
 	height: 1.5rem;
 	width: 1.5rem;
 	background-color: red;
